@@ -81,7 +81,7 @@ class Calculator {
         return op(lhs, rhs)
     }
     
-    // Function for performing math operation son an array of Integers
+    // Function for performing math operations on an array of Integers
     public func mathOp(args: [Int], beg: Int, op: (Int, Int) -> Int) -> Int {
         let result = args.reduce(beg) {i, j in
             op(i, j)
